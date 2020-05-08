@@ -1,0 +1,89 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 18px;
+    background-color: #f2f2f2;
+  }
+  
+
+  .container {
+    width: 90%;
+    background-color: #30a189;
+    margin: 0 auto;
+  }
+  .container header {
+    width: 100%;
+    background-color: #115338;
+    margin-bottom: 20px;
+  }
+  .container header .titulo {
+    text-align: center;
+    color: #eee4e4;
+    text-transform: uppercase;
+    padding: 15px;
+  }
+  .container .main {
+    width: 100%;
+  }
+  .container .main .contenido {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .container .main .contenido .btn {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 6px;
+  }
+  .container .main .contenido .primary {
+    border: 1px solid #1420ca;
+    background-color: #ffffff;
+    color: #1420ca;
+  }
+  .container .main .contenido .primary:hover {
+    background-color: #1420ca;
+    color: #ffffff;
+  }
+  .container .main .contenido .secundary {
+    border: 1px solid #757070f6;
+    background-color: #ffffff;
+    color: #757070f6;
+  }
+  .container .main .contenido .secundary:hover {
+    background-color: #757070f6;
+    color: #ffffff;
+  }
+  .container .main .contenido .danger {
+    border: 1px solid #cf3939;
+    color: #cf3939;
+  }
+  .container .main .contenido .danger:hover {
+    background-color: #cf3939;
+    color: #ffffff;
+  }
+  .container .main .contenido .col h1 {
+    color: #ffffff;
+  }
+
+  .container .main .contenido .col .carta {
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+    margin-top: 10px;
+  }
+  .container .main .contenido .col #cumputadora-cartas, .container .main .contenido .col #jugador-cartas {
+    height: 250px;
+  }
+
+  

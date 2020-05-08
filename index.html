@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <title>BlackJack</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="titulo">
+                <h2>Black Jack</h2>
+            </div>
+        </header>
+    
+        <section class="main">
+            <div class="contenido" id="contenido">
+                <button id="btnNuevo" class="btn primary">Nuevo Juego</button>
+                <button id="btnPedir" disabled="disabled" class="btn secundary">Pedir Carta</button>
+                <button id="btnDetener" disabled="disabled" class="btn danger">Detener</button>
+            </div>
+
+            <div class="contenido">
+                <div class="col">
+                    <h1>Jugador 1 - <small>0</small></h1>
+                    <div  id="jugador-cartas" class="divCartas">
+                        <!-- <img class="carta" src="assets/cartas/10C.png" alt=""> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenido">
+                <div class="col">
+                    <h1>Computadora 1 - <small>0</small></h1>
+                    <div id="cumputadora-cartas" class="divCartas">
+                        <!-- <img class="carta" src="assets/cartas/3C.png" alt=""> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="assets/js/underscore-min.js"></script>
+    <script src="assets/js/juego.js"></script>
+
+    <script>
+
+        console.log( hola);
+        //Esto llamando de manera externa para poder incializar el juego
+        hola.nuevoJuego();
+    </script>
+</body>
+</html>
